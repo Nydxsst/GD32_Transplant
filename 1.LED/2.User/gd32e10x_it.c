@@ -35,7 +35,7 @@ OF SUCH DAMAGE.
 */
 
 #include "gd32e10x_it.h"
-#include "systick.h"
+
 
 /*!
     \brief      this function handles NMI exception

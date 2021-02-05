@@ -1,0 +1,17 @@
+--cpu=Cortex-M4.fp
+".\1.output\objects\main.o"
+".\1.output\objects\gd32e10x_it.o"
+".\1.output\objects\delay.o"
+".\1.output\objects\sys.o"
+".\1.output\objects\led.o"
+".\1.output\objects\usart_debug.o"
+".\1.output\objects\startup_gd32e10x.o"
+".\1.output\objects\system_gd32e10x.o"
+".\1.output\objects\gd32e10x_gpio.o"
+".\1.output\objects\gd32e10x_misc.o"
+".\1.output\objects\gd32e10x_usart.o"
+".\1.output\objects\gd32e10x_rcu.o"
+--library_type=microlib --strict --scatter ".\1.Output\Objects\MY_Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\1.Output\Listings\MY_Project.map" -o .\1.Output\Objects\MY_Project.axf

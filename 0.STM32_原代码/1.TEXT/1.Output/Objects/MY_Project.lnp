@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\1.output\objects\main.o"
+".\1.output\objects\sys.o"
+".\1.output\objects\delay.o"
+".\1.output\objects\led.o"
+".\1.output\objects\usart_debug.o"
+".\1.output\objects\startup_stm32f10x_md.o"
+".\1.output\objects\system_stm32f10x.o"
+".\1.output\objects\core_cm3.o"
+".\1.output\objects\misc.o"
+".\1.output\objects\stm32f10x_gpio.o"
+".\1.output\objects\stm32f10x_rcc.o"
+".\1.output\objects\stm32f10x_usart.o"
+--library_type=microlib --strict --scatter ".\1.Output\Objects\MY_Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\1.Output\Listings\MY_Project.map" -o .\1.Output\Objects\MY_Project.axf

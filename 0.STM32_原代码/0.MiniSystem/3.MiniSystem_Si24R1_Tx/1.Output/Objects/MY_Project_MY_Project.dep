@@ -1,0 +1,638 @@
+Dependencies for Project 'MY_Project', Target 'MY_Project': (DO NOT MODIFY !)
+F (.\2.User\main.c)(0x5FA2C59F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\main.o --omf_browse .\1.output\objects\main.crf --depend .\1.output\objects\main.d)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+I (.\2.User\144lcd_st7735s\144lcd_st7735s.h)(0x5FA03E2D)
+I (.\2.User\font\fonts.h)(0x5EFC4C07)
+I (.\2.User\spi2\spi2.h)(0x5EFDBC6B)
+I (.\2.User\key\key.h)(0x5FA2C5AC)
+I (.\2.User\si24r1\si24r1.h)(0x5FA03997)
+I (.\2.User\spi1\spi1.h)(0x5F999DFD)
+F (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)()
+F (.\2.User\sys\sys.c)(0x5DF48AC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\sys.o --omf_browse .\1.output\objects\sys.crf --depend .\1.output\objects\sys.d)
+I (2.User\sys\sys.h)(0x5EBCD377)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\2.User\delay\delay.c)(0x5EBCD10C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\delay.o --omf_browse .\1.output\objects\delay.crf --depend .\1.output\objects\delay.d)
+I (2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\2.User\led\led.c)(0x5EFC46DF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\led.o --omf_browse .\1.output\objects\led.crf --depend .\1.output\objects\led.d)
+I (2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\2.User\usart_debug\usart_debug.c)(0x5E0ADD21)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\usart_debug.o --omf_browse .\1.output\objects\usart_debug.crf --depend .\1.output\objects\usart_debug.d)
+I (2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\2.User\font\fonts.c)(0x5EFC4B0F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\fonts.o --omf_browse .\1.output\objects\fonts.crf --depend .\1.output\objects\fonts.d)
+I (2.User\font\fonts.h)(0x5EFC4C07)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\2.User\144lcd_st7735s\144lcd_st7735s.c)(0x5EFDBE8E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\144lcd_st7735s.o --omf_browse .\1.output\objects\144lcd_st7735s.crf --depend .\1.output\objects\144lcd_st7735s.d)
+I (2.User\144lcd_st7735s\144lcd_st7735s.h)(0x5FA03E2D)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+I (.\2.User\font\fonts.h)(0x5EFC4C07)
+I (.\2.User\spi2\spi2.h)(0x5EFDBC6B)
+F (.\2.User\spi2\spi2.c)(0x5BE81585)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\spi2.o --omf_browse .\1.output\objects\spi2.crf --depend .\1.output\objects\spi2.d)
+I (2.User\spi2\spi2.h)(0x5EFDBC6B)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\2.User\key\key.c)(0x5EFC4546)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\key.o --omf_browse .\1.output\objects\key.crf --depend .\1.output\objects\key.d)
+I (2.User\key\key.h)(0x5FA2C5AC)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\2.User\si24r1\si24r1.c)(0x5FA041FD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\si24r1.o --omf_browse .\1.output\objects\si24r1.crf --depend .\1.output\objects\si24r1.d)
+I (2.User\si24r1\si24r1.h)(0x5FA03997)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+I (.\2.User\spi1\spi1.h)(0x5F999DFD)
+F (.\2.User\spi1\spi1.c)(0x5FA2C59F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\spi1.o --omf_browse .\1.output\objects\spi1.crf --depend .\1.output\objects\spi1.d)
+I (2.User\spi1\spi1.h)(0x5F999DFD)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\3.Libraries\CMSIS\startup\startup_stm32f10x_md.s)(0x58953819)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_MD SETA 1"--list .\1.output\listings\startup_stm32f10x_md.lst --xref -o .\1.output\objects\startup_stm32f10x_md.o --depend .\1.output\objects\startup_stm32f10x_md.d)
+F (.\3.Libraries\CMSIS\system_stm32f10x.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\system_stm32f10x.o --omf_browse .\1.output\objects\system_stm32f10x.crf --depend .\1.output\objects\system_stm32f10x.d)
+I (3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\3.Libraries\CMSIS\core\core_cm3.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\core_cm3.o --omf_browse .\1.output\objects\core_cm3.crf --depend .\1.output\objects\core_cm3.d)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (.\3.Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\misc.o --omf_browse .\1.output\objects\misc.crf --depend .\1.output\objects\misc.d)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+F (.\3.Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\stm32f10x_gpio.o --omf_browse .\1.output\objects\stm32f10x_gpio.crf --depend .\1.output\objects\stm32f10x_gpio.d)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\3.Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\stm32f10x_rcc.o --omf_browse .\1.output\objects\stm32f10x_rcc.crf --depend .\1.output\objects\stm32f10x_rcc.d)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\3.Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\stm32f10x_usart.o --omf_browse .\1.output\objects\stm32f10x_usart.crf --depend .\1.output\objects\stm32f10x_usart.d)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\3.Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\stm32f10x_exti.o --omf_browse .\1.output\objects\stm32f10x_exti.crf --depend .\1.output\objects\stm32f10x_exti.d)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\3.Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x58953819)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\STM32F10x_StdPeriph_Driver\inc -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug -I .\2.User\font -I .\2.User\144lcd_st7735s -I .\2.User\spi2 -I .\2.User\key -I .\2.User\spi1 -I .\2.User\si24r1-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Installation\KEIL_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\1.output\objects\stm32f10x_spi.o --omf_browse .\1.output\objects\stm32f10x_spi.crf --depend .\1.output\objects\stm32f10x_spi.d)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58953819)
+I (.\3.Libraries\CMSIS\stm32f10x.h)(0x58953819)
+I (.\3.Libraries\CMSIS\core\core_cm3.h)(0x58953819)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\system_stm32f10x.h)(0x58953819)
+I (.\2.User\stm32f10x_conf.h)(0x5EBCD1D7)
+I (D:\Installation\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\2.User\sys\sys.h)(0x5EBCD377)
+I (.\2.User\usart_debug\usart_debug.h)(0x5EBCD220)
+I (.\2.User\delay\delay.h)(0x5EBCD1A9)
+I (.\2.User\led\led.h)(0x5EFC4B24)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x58953819)
+I (.\3.Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x58953819)
+F (.\4.Doc\readme.txt)(0x58953356)()

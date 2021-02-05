@@ -1,0 +1,365 @@
+Dependencies for Project 'MY_Project', Target 'MY_Project': (DO NOT MODIFY !)
+F (.\2.User\main.c)(0x601D6E70)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\main.o --omf_browse .\1.output\objects\main.crf --depend .\1.output\objects\main.d)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+I (.\2.User\delay\delay.h)(0x600CF925)
+I (.\2.User\usart_debug\usart_debug.h)(0x601D68F5)
+F (.\2.User\gd32e10x_libopt.h)(0x600CF296)()
+F (.\2.User\gd32e10x_it.c)(0x601D6A9A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\gd32e10x_it.o --omf_browse .\1.output\objects\gd32e10x_it.crf --depend .\1.output\objects\gd32e10x_it.d)
+I (2.User\gd32e10x_it.h)(0x5FE9774F)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\2.User\delay\delay.c)(0x600C436A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\delay.o --omf_browse .\1.output\objects\delay.crf --depend .\1.output\objects\delay.d)
+I (2.User\delay\delay.h)(0x600CF925)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\2.User\sys\sys.c)(0x5DF48AC6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\sys.o --omf_browse .\1.output\objects\sys.crf --depend .\1.output\objects\sys.d)
+I (2.User\sys\sys.h)(0x600CF2DF)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\2.User\led\led.c)(0x600CF26A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\led.o --omf_browse .\1.output\objects\led.crf --depend .\1.output\objects\led.d)
+I (2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\2.User\usart_debug\usart_debug.c)(0x601D6E5C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\usart_debug.o --omf_browse .\1.output\objects\usart_debug.crf --depend .\1.output\objects\usart_debug.d)
+I (2.User\usart_debug\usart_debug.h)(0x601D68F5)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\3.Libraries\CMSIS\startup\startup_gd32e10x.s)(0x5FE97746)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527" --pd "GD32E10x SETA 1"--list .\1.output\listings\startup_gd32e10x.lst --xref -o .\1.output\objects\startup_gd32e10x.o --depend .\1.output\objects\startup_gd32e10x.d)
+F (.\3.Libraries\CMSIS\system_gd32e10x.c)(0x5FE97746)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\system_gd32e10x.o --omf_browse .\1.output\objects\system_gd32e10x.crf --depend .\1.output\objects\system_gd32e10x.d)
+I (3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\3.Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_gpio.c)(0x5FE97745)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\gd32e10x_gpio.o --omf_browse .\1.output\objects\gd32e10x_gpio.crf --depend .\1.output\objects\gd32e10x_gpio.d)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\3.Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_misc.c)(0x5FE97745)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\gd32e10x_misc.o --omf_browse .\1.output\objects\gd32e10x_misc.crf --depend .\1.output\objects\gd32e10x_misc.d)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\3.Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_usart.c)(0x5FE97745)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\gd32e10x_usart.o --omf_browse .\1.output\objects\gd32e10x_usart.crf --depend .\1.output\objects\gd32e10x_usart.d)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\3.Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_rcu.c)(0x5FE97745)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\3.Libraries\CMSIS -I .\3.Libraries\CMSIS\core -I .\3.Libraries\CMSIS\startup -I .\3.Libraries\GD32E10x_standard_peripheral\Include -I .\2.User -I .\2.User\delay -I .\2.User\sys -I .\2.User\led -I .\2.User\usart_debug-I.\RTE\_MY_Project-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0\Device\Include-ID:\Installation\KEIL_MDK\KEIL5_27\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DGD32E10x -DGD32E103V_EVAL-o .\1.output\objects\gd32e10x_rcu.o --omf_browse .\1.output\objects\gd32e10x_rcu.crf --depend .\1.output\objects\gd32e10x_rcu.d)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FE97745)
+I (.\3.Libraries\CMSIS\gd32e10x.h)(0x60070FC4)
+I (.\3.Libraries\CMSIS\core\core_cm4.h)(0x5FE97746)
+I (D:\Installation\KEIL_MDK\KEIL5_27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\3.Libraries\CMSIS\core\core_cmInstr.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cmFunc.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\core\core_cm4_simd.h)(0x5FE97746)
+I (.\3.Libraries\CMSIS\system_gd32e10x.h)(0x5FE97746)
+I (.\2.User\gd32e10x_libopt.h)(0x600CF296)
+I (.\2.User\sys\sys.h)(0x600CF2DF)
+I (.\2.User\led\led.h)(0x600CF324)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FE97745)
+I (.\3.Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FE97745)
+F (.\4.Doc\readme.txt)(0x58953356)()
