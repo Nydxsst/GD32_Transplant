@@ -12,7 +12,6 @@
   */
 
 #include "gd32e10x.h"
-#include "systick.h"
 #include "delay.h"
 #include "led.h"
 
