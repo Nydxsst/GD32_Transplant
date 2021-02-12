@@ -15,7 +15,8 @@
 #include "delay.h"
 #include "led.h"
 #include "usart_debug.h"
-#include "key.h"
+#include "timer.h"
+
 
 int main(void)
 {
@@ -26,14 +27,14 @@ int main(void)
 	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
 	/* 外设初始化 */
 	Delay_Init();
-	Usart_Debug_Init(115200);
 	Led_Init();
-	Key_Init();
+	Usart_Debug_Init(115200);
+	TIMER_Init();
 	
 	printf("Start\r\n");
 	while(1)
 	{
-		Delay_Ms(500);
-		printf("Runing\r\n");
+//		SYSTEM_LED = !SYSTEM_LED;
+//		Delay_Ms(500);
 	}
 }

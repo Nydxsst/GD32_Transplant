@@ -22,7 +22,9 @@ int main(void)
 	/* 关闭JLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
-
+	/* 中断优先级选组 */
+	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
+	/* 外设初始化 */
 	Delay_Init();
 	Led_Init();
 	Usart_Debug_Init(115200);

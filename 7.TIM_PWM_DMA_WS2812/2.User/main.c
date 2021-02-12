@@ -15,7 +15,7 @@
 #include "delay.h"
 #include "led.h"
 #include "usart_debug.h"
-#include "key.h"
+#include "ws2812b.h"
 
 int main(void)
 {
@@ -26,14 +26,16 @@ int main(void)
 	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
 	/* 外设初始化 */
 	Delay_Init();
-	Usart_Debug_Init(115200);
 	Led_Init();
-	Key_Init();
+	Usart_Debug_Init(115200);
+	WS2812_Init();
 	
 	printf("Start\r\n");
+	
+	timer_channel_output_pulse_value_config(PWM_TIMER, PWM_TIMER_CH, 8000);
 	while(1)
 	{
+		SYSTEM_LED = !SYSTEM_LED;
 		Delay_Ms(500);
-		printf("Runing\r\n");
 	}
 }
