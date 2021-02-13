@@ -10,5 +10,5 @@ void Led_Init(void)
 	rcu_periph_clock_enable(SYSTEM_LED_CLK);
 	gpio_init(SYSTEM_LED_PORT, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, SYSTEM_LED_PIN);
 
-	SYSTEM_LED = 1;
+	SYSTEM_LED = 0;
 }

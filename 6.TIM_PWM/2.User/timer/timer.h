@@ -20,13 +20,16 @@
 #define PWM_TIMER_RELOAD			15999
 
 /* TIMER操作线 ---------------------------------------------------------------*/
-#define PWM_TIMER							TIMER1
-#define PWM_TIMER_CLK					RCU_TIMER1
 #define PWM_GPIO_CLK					RCU_GPIOA
 #define PWM_GPIO_PORT					GPIOA
 #define PWM_GPIO_PIN					GPIO_PIN_15
+
+#define PWM_TIMER							TIMER1
+#define PWM_TIMER_CLK					RCU_TIMER1
 #define PWM_TIMER_CH					TIMER_CH_0
 #define PWM_TIMER_REMAP				gpio_pin_remap_config(GPIO_TIMER1_FULL_REMAP, ENABLE)
+
+
 /* 外部调用函数 --------------------------------------------------------------*/
 void TIMER_Init(void);
 
