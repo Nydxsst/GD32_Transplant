@@ -37,6 +37,6 @@ int main(void)
 	while(1)
 	{
 		SYSTEM_LED = !SYSTEM_LED;
-		Delay_Ms(500);
+		Delay_Ms(200);
 	}
 }

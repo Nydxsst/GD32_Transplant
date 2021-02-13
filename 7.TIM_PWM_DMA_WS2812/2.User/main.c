@@ -17,6 +17,8 @@
 #include "usart_debug.h"
 #include "ws2812b.h"
 
+extern u32 WS2812B_ALL_COLOR[PIXEL_MAX];
+
 int main(void)
 {
 	/* ¹Ø±ÕJLINK */
@@ -32,10 +34,16 @@ int main(void)
 	
 	printf("Start\r\n");
 	
-	timer_channel_output_pulse_value_config(PWM_TIMER, PWM_TIMER_CH, 8000);
+	WS2812B_ALL_COLOR[0] = 0xFF00FF;
+	WS2812B_ALL_COLOR[1] = 0xFF0000;
+	WS2812B_ALL_COLOR[2] = 0x00FF00;
+	WS2812B_ALL_COLOR[3] = 0x0000FF;
+	WS2812_Refresh();
+	//timer_channel_output_pulse_value_config(PWM_TIMER, PWM_TIMER_CH, 8000);
 	while(1)
 	{
-		SYSTEM_LED = !SYSTEM_LED;
+		//SYSTEM_LED = !SYSTEM_LED;
+		printf("GoOn\r\n");
 		Delay_Ms(500);
 	}
 }
