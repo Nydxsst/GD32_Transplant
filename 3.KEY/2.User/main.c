@@ -5,7 +5,7 @@
   * @date    2020/01/24
   ******************************************************************************
 	* @attention
-	* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½PA13.PA14.PA15.PB3.PB4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½jlink
+	* Èç¹ûÐèÓÃµ½PA13.PA14.PA15.PB3.PB4£¬ÔòÐèÒª¹Øjlink
 	* rcu_periph_clock_enable(RCU_AF);
 	* gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
   ******************************************************************************
@@ -16,8 +16,8 @@
 int main(void)
 {
 	u8 Key_Press = 0;
-	
-	/* ï¿½Ø±ï¿½JLINK */
+
+	/* ¹Ø±ÕJLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
 	

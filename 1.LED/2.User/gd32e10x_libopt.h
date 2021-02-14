@@ -37,7 +37,7 @@ OF SUCH DAMAGE.
 #ifndef GD32E10X_LIBOPT_H
 #define GD32E10X_LIBOPT_H
 
-/* STM32ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ */
+/* STM32¾ÉÊý¾ÝÀàÐÍËõÐ´¶¨Òå */
 typedef int32_t  s32;
 typedef int16_t s16;
 typedef int8_t  s8;

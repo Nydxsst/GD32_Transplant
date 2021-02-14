@@ -5,7 +5,7 @@
   * @date    2020/05/14
   ******************************************************************************
 	* @attention
-	* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½PA13.PA14.PA15.PB3.PB4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½jlink
+	* Èç¹ûÐèÓÃµ½PA13.PA14.PA15.PB3.PB4,ÔòÐèÒª¹Øjlink
 	* rcu_periph_clock_enable(RCU_AF);
 	* gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
   ******************************************************************************
@@ -15,10 +15,10 @@
 
 int main(void)
 {
-	/* ï¿½Ø±ï¿½JLINK */
+	/* ¹Ø±ÕJLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
-	/* ï¿½ï¿½ï¿½ï¿½ÏµÍ³Ê±ï¿½ï¿½ */
+	/* ÅäÖÃÏµÍ³Ê±ÖÓ */
 	Delay_Init();
 	Led_Init();
 

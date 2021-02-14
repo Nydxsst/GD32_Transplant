@@ -5,7 +5,7 @@
   * @date    2020/01/24
   ******************************************************************************
 	* @attention
-	* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½PA13.PA14.PA15.PB3.PB4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½jlink
+	* Èç¹ûÐèÓÃµ½PA13.PA14.PA15.PB3.PB4£¬ÔòÐèÒª¹Øjlink
 	* rcu_periph_clock_enable(RCU_AF);
 	* gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
   ******************************************************************************
@@ -16,12 +16,12 @@
 
 int main(void)
 {
-	/* ï¿½Ø±ï¿½JLINK */
+	/* ¹Ø±ÕJLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
-	/* ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½È¼ï¿½Ñ¡ï¿½ï¿½ */
+	/* ÖÐ¶ÏÓÅÏÈ¼¶Ñ¡×é */
 	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
-	/* ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ */
+	/* ÍâÉè³õÊ¼»¯ */
 	Delay_Init();
 	Led_Init();
 	Usart_Debug_Init(115200);
