@@ -5,26 +5,23 @@
   * @date    2020/01/24
   ******************************************************************************
 	* @attention
-	* Èç¹ûÐèÓÃµ½PA13.PA14.PA15.PB3.PB4£¬ÔòÐèÒª¹Øjlink
+	* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½PA13.PA14.PA15.PB3.PB4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½jlink
 	* rcu_periph_clock_enable(RCU_AF);
 	* gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
   ******************************************************************************
   */
 
 #include "gd32e10x.h"
-#include "delay.h"
-#include "led.h"
-#include "usart_debug.h"
 
 
 int main(void)
 {
-	/* ¹Ø±ÕJLINK */
+	/* ï¿½Ø±ï¿½JLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
-	/* ÖÐ¶ÏÓÅÏÈ¼¶Ñ¡×é */
+	/* ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½È¼ï¿½Ñ¡ï¿½ï¿½ */
 	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
-	/* ÍâÉè³õÊ¼»¯ */
+	/* ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ */
 	Delay_Init();
 	Led_Init();
 	Usart_Debug_Init(115200);

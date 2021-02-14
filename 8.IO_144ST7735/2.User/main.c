@@ -5,16 +5,13 @@
   * @date    2020/02/12
   ******************************************************************************
 	* @attention
-	* Èç¹ûÐèÓÃµ½PA13.PA14.PA15.PB3.PB4£¬ÔòÐèÒª¹Øjlink
+	* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½PA13.PA14.PA15.PB3.PB4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½jlink
 	* rcu_periph_clock_enable(RCU_AF);
 	* gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
   ******************************************************************************
   */
 
 #include "gd32e10x.h"
-#include "delay.h"
-#include "led.h"
-#include "usart_debug.h"
 #include "144lcd_st7735s.h"
 
 u8 IMAlogo[]=
@@ -182,7 +179,7 @@ u8 dan[]=
 0x01,0xFF,0x80,0x00,0x00,0x00,0x03,0xC0,0x00,0xE0,0x00,0x00,0x00,0x00,0x01,0xC0,
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
-};/*"¦Ì¡ã",0*/
+};/*"ï¿½Ì¡ï¿½",0*/
 u8 xie[]=
 {
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
@@ -221,12 +218,12 @@ u8 xie[]=
 
 int main(void)
 {
-	/* ¹Ø±ÕJLINK */
+	/* ï¿½Ø±ï¿½JLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
-	/* ÖÐ¶ÏÓÅÏÈ¼¶Ñ¡×é */
+	/* ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½È¼ï¿½Ñ¡ï¿½ï¿½ */
 	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
-	/* ÍâÉè³õÊ¼»¯ */
+	/* ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ */
 	Delay_Init();
 
 	ST7735S_CPT144_Init();

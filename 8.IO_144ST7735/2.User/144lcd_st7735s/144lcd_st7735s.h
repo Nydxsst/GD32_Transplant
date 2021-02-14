@@ -64,7 +64,6 @@ void ST7735S_CPT144_Clear(void);
 void ST7735S_CPT144_DispChar(u8 usX, u8 Y, const char cChar); //显示一个英文字符
 void ST7735S_CPT144_DispString_XDir(u16 X, u16 Y, char* pStr); //显示英文字符串(沿X轴方向)
 void ST7735S_CPT144_DispString_YDir(u16 X, u16 Y, char* pStr); //显示英文字符串(沿y轴方向)
-
 void ST7735S_CPT144_SetFont(sFONT* fonts); //设置英文字体类型
 void ST7735S_CPT144_SetTextColor(uint16_t Color); //设置LCD的前景(字体)颜色
 void ST7735S_CPT144_SetBackColor(uint16_t Color); //设置LCD的背景颜色

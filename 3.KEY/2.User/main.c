@@ -5,23 +5,19 @@
   * @date    2020/01/24
   ******************************************************************************
 	* @attention
-	* Èç¹ûÐèÓÃµ½PA13.PA14.PA15.PB3.PB4£¬ÔòÐèÒª¹Øjlink
+	* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½PA13.PA14.PA15.PB3.PB4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½jlink
 	* rcu_periph_clock_enable(RCU_AF);
 	* gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
   ******************************************************************************
   */
 
 #include "gd32e10x.h"
-#include "delay.h"
-#include "led.h"
-#include "usart_debug.h"
-#include "key.h"
 
 int main(void)
 {
 	u8 Key_Press = 0;
 	
-	/* ¹Ø±ÕJLINK */
+	/* ï¿½Ø±ï¿½JLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
 	
