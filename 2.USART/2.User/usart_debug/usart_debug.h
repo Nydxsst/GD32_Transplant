@@ -16,7 +16,7 @@
 
 /* 外部调用函数 --------------------------------------------------------------*/
 void Usart_Debug_Init(u32 BaudRate);//初始化
-
 extern int printf(const char * , ...);//声明printf的引用，否则会报warning
+
 
 #endif
