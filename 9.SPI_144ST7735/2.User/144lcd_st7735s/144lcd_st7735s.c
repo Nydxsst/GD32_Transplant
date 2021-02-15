@@ -27,7 +27,6 @@ void ST7735S_CPT144_GPIO_Init(void);
 	*/
 __inline void ST7735S_CPT144_WriteCommand(u8 Cmd)
 {
-//	printf("print command:");
 	A0_L;
 	CS_L;
 	ST7735S_SPI_ReadWriteByte(Cmd);
@@ -54,7 +53,6 @@ __inline void ST7735S_CPT144_WriteData(u8 Data)
 	*/
 __inline void ST7735S_CPT144_WriteData16(u16 Data16)
 {
-//	printf("print 16bit:");
 	ST7735S_CPT144_WriteData(Data16 >> 8);
 	ST7735S_CPT144_WriteData(Data16);
 }
