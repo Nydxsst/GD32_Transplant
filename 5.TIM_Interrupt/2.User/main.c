@@ -12,9 +12,6 @@
   */
 
 #include "gd32e10x.h"
-#include "delay.h"
-#include "led.h"
-#include "usart_debug.h"
 #include "timer.h"
 
 

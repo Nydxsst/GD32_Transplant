@@ -12,6 +12,8 @@
   */
 
 #include "gd32e10x.h"
+#include "key.h"
+
 
 int main(void)
 {

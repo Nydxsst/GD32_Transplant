@@ -37,6 +37,7 @@ OF SUCH DAMAGE.
 #ifndef GD32E10X_LIBOPT_H
 #define GD32E10X_LIBOPT_H
 
+
 /* STM32旧数据类型缩写定义 */
 typedef int32_t  s32;
 typedef int16_t s16;
@@ -62,11 +63,11 @@ typedef __IO uint8_t  vu8;
 typedef __I uint32_t vuc32;  /*!< Read Only */
 typedef __I uint16_t vuc16;  /*!< Read Only */
 typedef __I uint8_t vuc8;   /*!< Read Only */
+
 /* User */
 #include "sys.h"
 #include "led.h"
 #include "delay.h"
-#include "key.h"
 #include "usart_debug.h"
 
 /* Firmware */
