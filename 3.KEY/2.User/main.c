@@ -12,15 +12,11 @@
   */
 
 #include "gd32e10x.h"
-#include "delay.h"
-#include "led.h"
-#include "usart_debug.h"
-#include "key.h"
 
 int main(void)
 {
 	u8 Key_Press = 0;
-	
+
 	/* ¹Ø±ÕJLINK */
 	rcu_periph_clock_enable(RCU_AF);
 	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);

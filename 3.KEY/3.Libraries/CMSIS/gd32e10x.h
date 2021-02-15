@@ -245,10 +245,6 @@ typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrStatus;
 #include "gd32e10x_libopt.h"
 #endif /* USE_STDPERIPH_DRIVER */
 
-typedef uint32_t  u32;
-typedef uint16_t u16;
-typedef uint8_t  u8;
-
 #ifdef __cplusplus
 }
 #endif
