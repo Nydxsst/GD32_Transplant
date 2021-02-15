@@ -12,9 +12,6 @@
   */
 
 #include "gd32e10x.h"
-#include "delay.h"
-#include "led.h"
-#include "usart_debug.h"
 #include "ws2812b.h"
 
 extern u32 WS2812B_ALL_COLOR[PIXEL_MAX];
