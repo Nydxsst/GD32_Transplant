@@ -1,10 +1,5 @@
 #include "spi1.h"
 
-/**
-	* @brief	初始化SPI1的GPIO
-	* @param  None
-	* @retval None
-	*/
 void SPI1_GPIO_Init(void)
 {
 	rcu_periph_clock_enable(RCU_GPIOB);
@@ -46,7 +41,7 @@ void SPI1_Init(void)
 
 
 /**
-	* @brief  SPI1读写
+	* @brief	设置SPI2的速度
 	* @param  TxData:要写入的字节
 	* @retval 读取到的字节
 	*/
