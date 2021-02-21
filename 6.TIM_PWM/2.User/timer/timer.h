@@ -16,8 +16,9 @@
 
 /* TIMER配置参数 -------------------------------------------------------------*/
 //TIM打拍频率 = 120M/prescaler, 周期 = LOAD/打拍频率
+//产生1ms的PWM波
 #define PWM_TIMER_PREACALER		119
-#define PWM_TIMER_RELOAD			15999
+#define PWM_TIMER_RELOAD			1000
 
 /* TIMER操作线 ---------------------------------------------------------------*/
 #define PWM_GPIO_CLK					RCU_GPIOA

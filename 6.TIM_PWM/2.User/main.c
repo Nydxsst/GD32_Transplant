@@ -30,7 +30,7 @@ int main(void)
 	
 	printf("Start\r\n");
 	
-	timer_channel_output_pulse_value_config(PWM_TIMER, PWM_TIMER_CH, 8000);
+	timer_channel_output_pulse_value_config(PWM_TIMER, PWM_TIMER_CH, 500);//Õ¼¿Õ±È50%
 	while(1)
 	{
 		SYSTEM_LED = !SYSTEM_LED;
