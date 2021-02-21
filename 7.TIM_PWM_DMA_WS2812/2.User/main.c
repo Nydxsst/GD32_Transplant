@@ -31,16 +31,19 @@ int main(void)
 	
 	printf("Start\r\n");
 	
-	WS2812B_ALL_COLOR[0] = 0xFF00FF;
-	WS2812B_ALL_COLOR[1] = 0xFF0000;
-	WS2812B_ALL_COLOR[2] = 0x00FF00;
-	WS2812B_ALL_COLOR[3] = 0x0000FF;
+	WS2812B_ALL_COLOR[0] = 0x0F0000;//red
+	WS2812B_ALL_COLOR[1] = 0x000F00;//green
+	WS2812B_ALL_COLOR[2] = 0x00000F;//blue
+	WS2812B_ALL_COLOR[3] = 0x0F000F;//purple
+	WS2812B_ALL_COLOR[4] = 0x0F000F;
+	WS2812B_ALL_COLOR[5] = 0x00000F;
+	WS2812B_ALL_COLOR[6] = 0x000F00;
+	WS2812B_ALL_COLOR[7] = 0x0F0000;
 	WS2812_Refresh();
-	//timer_channel_output_pulse_value_config(PWM_TIMER, PWM_TIMER_CH, 8000);
 	while(1)
 	{
-		//SYSTEM_LED = !SYSTEM_LED;
-		printf("GoOn\r\n");
+		SYSTEM_LED = !SYSTEM_LED;
+		//printf("GoOn\r\n");
 		Delay_Ms(500);
 	}
 }
